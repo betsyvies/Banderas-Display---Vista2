@@ -1,0 +1,44 @@
+/*Creamos la seleccion universal para dar estilo a todo nuestro contenido*/
+* {
+  box-sizing: border-box;
+  height: 130px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+/*Al atributo id(wor1) le cambiaremos el tipo de letra, el color de fondo,
+el relleno, tambien determinaremos el width,el margen y lo posicionaremos
+como elemento block. Esto lo haremos con la propiedad display*/
+#word1 {
+  font-family: serif;
+  background-color: #ffc107;
+  width: 230px;
+  padding: 8px;
+  margin: 10px;
+  display: block;
+}
+/*Al atributo id(wor2) le cambiaremos el tipo de letra, el color de fondo,
+color de letra, tambien determinaremos el width, el relleno, el margen y
+lo posicionaremos como elemento block- Esto lo haremos con la propiedad display*/
+#word2 {
+  font-family: serif;
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  width: 230px;
+  padding: 8px;
+  margin: 10px;
+  display: block;
+}
+/*Al atributo id(wor3) le cambiaremos el tipo de letra, el color de fondo,
+transformamos el texto a mayusculas, tambien determinaremos el width, el
+relleno, el margen y lo posicionaremos como elemento block, esto lo haremos
+con la propiedad display*/
+#word3 {
+  font-family: serif;
+  background-color: #ffc107;
+  text-transform: uppercase;
+  width: 230px;
+  padding: 8px;
+  margin: 10px;
+  display: block;
+}
